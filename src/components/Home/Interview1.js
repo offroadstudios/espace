@@ -2,16 +2,16 @@ import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../utils/varients';
 import { useLocation } from 'react-router-dom';
-import bgpart1 from './../../asset/interview/bgpart1.png';
-import bgpart2 from './../../asset/interview/bgpart2.png';
+import bgpart1 from './../../asset/interview1/bgpart1.png';
+import bgpart2 from './../../asset/interview1/bgpart2.png';
 
-const Interview = () => {
+const Interview1 = () => {
   const intervewRef = useRef(null);
   const { pathname } = useLocation();
   const [isExpanded, setIsExpanded] = useState(false);
 
   useEffect(() => {
-    if (pathname === '/interview') {
+    if (pathname === '/interview1') {
       intervewRef.current?.scrollIntoView({ behavior: 'smooth' });
     }
   }, [pathname]);
@@ -23,7 +23,7 @@ const Interview = () => {
         initial="hidden"
         whileInView={'show'}
         viewport={{ once: false, amount: 0.1 }}
-        className="section bg-dark"
+        className="section bg-dark h-full"
       >
         <div className="container mx-auto h-full">
           <div className="flex flex-col lg:flex-row justify-center h-full">
@@ -50,4 +50,4 @@ const Interview = () => {
   );
 };
 
-export default Interview;
+export default Interview1;

@@ -25,7 +25,7 @@ export const navData = {
   items: [
     { href: "/", name: "Home" },
     { href: "/about", name: "About" },
-    { href: "/gallery", name: "Gallery" },
+    // { href: "/gallery", name: "Gallery" },
     { href: "/contacts", name: "Contact" },
   ],
 };
@@ -44,17 +44,20 @@ export const heroData = {
 };
 
 export const aboutData = {
-  title: "My Story:",
+  title: "About Us",
   subtitle1:
-"Trained in the prestigious National College of Arts in Lahore, Anam Jawad has quickly risen to prominence through her unique miniature paintings. Gaining instant acclaim, her Stitched Lips thesis series sold out on the day of its exhibition. She has showcased her work at Ejaz Art Gallery, sharing the stage with notable artists such as Tahir bin Qalandar.",
-    subtitle2:
-    "While her roots are in traditional art forms, Anam Jawad is now making waves in the digital art sphere, ingeniously blending classical techniques with modern technology. Thank you for visitingExplore the site to discover more of Anamjawads groundbreaking work.",
-    btnText: "Know more",
+"The Portable Luxury House is a cutting-edge, mobile living solution designed for individuals seeking a seamless blend of style, comfort, and mobility. Crafted with modern materials and equipped with the latest technology, this house offers a luxurious lifestyle while being entirely portable. Whether you're looking to settle temporarily or move to a new location, this house provides all the amenities of a permanent residence with the flexibility of mobile living.",
   btnIcon: <IoMdArrowForward />,
 };
 
+export const about1Data = {
+  title: "Sustainable and Off-Grid Readys",
+  subtitle1:
+"Live sustainably with our energy-efficient design. Equipped with solar panels, rainwater harvesting systems, and advanced filtration, our homes are perfect for off-grid living. Enjoy self-sufficient, eco-conscious living without sacrificing modern conveniences.",
+  btnIcon: <IoMdArrowForward />,
+};
 export const galleryData = {
-  title: "Check my gallery:",
+  title: "",
   btnText: "View all",
   btnIcon: <IoMdArrowForward />,
   images: [
@@ -115,7 +118,12 @@ export const interviewData = {
   btnText: "Watch it now",
   btnIcon: <FaPlay />,
 };
-
+export const interview1Data = {
+  title:
+    "",
+  btnText: "Watch it now",
+  btnIcon: <FaPlay />,
+};
 export const testimonialData = [
   {
     quoteImg: QuoteImg,
@@ -136,45 +144,26 @@ export const testimonialData = [
 ];
 
 export const contactData = {
-  title: "Get in touch with me:",
-  // info: [
-  //   {
-  //     title: "LA office",
-  //     subtitle:
-  //       "In velit arcu posuere integer sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus",
-  //     address: {
-  //       icon: <FaMapMarkerAlt />,
-  //       name: "784 Norman Street, Los Angeles",
-  //     },
-  //     phone: {
-  //       icon: <FaPhoneAlt />,
-  //       number: "+49 93 30493943",
-  //     },
-  //     email: {
-  //       icon: <FaEnvelope />,
-  //       address: "contact@yourcompany.com",
-  //     },
-  //     link: "Get location",
-  //   },
-  //   {
-  //     title: "NYC office",
-  //     subtitle:
-  //       "Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus",
-  //     address: {
-  //       icon: <FaMapMarkerAlt />,
-  //       name: "1630 Elm Drive, New York City",
-  //     },
-  //     phone: {
-  //       icon: <FaPhoneAlt />,
-  //       number: "+49 34 36573355",
-  //     },
-  //     email: {
-  //       icon: <FaEnvelope />,
-  //       address: "contact@yourcompany.com",
-  //     },
-  //     link: "Get location",
-  //   },
-  // ],
+  title: "To know more or get a quote",
+  info: [
+    {
+      title: "Lahoro office",
+      address: {
+        icon: <FaMapMarkerAlt />,
+        name: "784 Norman Street, Lahore",
+      },
+      phone: {
+        icon: <FaPhoneAlt />,
+        number: "+92 321 321321",
+      },
+      email: {
+        icon: <FaEnvelope />,
+        address: "info@espace.com",
+      },
+      link: "Get location",
+    },
+    
+  ],
   form: {
     name: "Write your name here",
     email: "Write your email address",
@@ -184,23 +173,21 @@ export const contactData = {
 };
 export const footerData = {
   about: {
-    title: "Anam Jawad",
-    subtitle: "Miniature - Digital - Artist",
+    title: "E-Space",
+    subtitle: "MOVABLE HOMES",
   },
   links: {
     title: "Useful links",
     items: [
-      { href: "/about", name: "About me" },
-      { href: "/gallary", name: "My gallery" },
-      { href: "/services", name: "My services" },
-      { href: "/contacts", name: "Contact me" },
+      { href: "/about", name: "About us" },
+      { href: "/services", name: "Book a demo" },
+      { href: "/contacts", name: "Contact Us" },
     ],
   },
   newsletter: {
-    title: "Newsletter",
-    subtitle: "Subscribe to the newsletter.",
+    title: "Use Manual",
     form: {
-      placeholder: "info@anamjawad.com",
+      placeholder: "info@espace.com",
       icon: <FiSend />,
     },
   },

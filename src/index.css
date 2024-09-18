@@ -1,40 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @layer base {
   body {
-    @apply font-secondary text-lg text-dark  bg-[#E5E5E5];
+    @apply font-secondary text-lg text-dark bg-[#E5E5E5] text-center;
   }
   .section {
-    @apply py-[40px] lg:py-[160px];
+    @apply py-[40px] lg:py-[160px] text-center; /* Add text-center for section */
   }
   .link {
-    @apply uppercase font-primary tracking-[0.08em];
+    @apply uppercase font-primary tracking-[0.08em] text-center; /* Centering links */
   }
   .h1 {
-    @apply text-[60px] lg:text-[118px] tracking-[-2px] leading-none font-tertiary mb-4;
+    @apply text-[60px] lg:text-[118px] tracking-[-2px] leading-none font-tertiary mb-4 text-center; /* Center heading */
   }
   .h2 {
-    @apply text-[40px] xl:text-[85px] text-dark uppercase font-primary max-w-[236px] leading-none mb-[38px];
+    @apply text-[30px] md:text-[30px] text-dark uppercase font-primary leading-none mb-[38px] text-center; /* Adjusting subheading for better fit */
   }
   /* buttons */
   .btn {
-    @apply font-primary text-lg tracking-[0.08em] uppercase px-[40px] transition-all duration-300 flex items-center gap-x-[10px];
+    @apply font-primary text-lg tracking-[0.08em] uppercase px-[40px] transition-all duration-300 flex items-center gap-x-[10px] justify-center; /* Ensure buttons are aligned centrally */
   }
   .btn-sm {
-    @apply h-[55px];
+    @apply h-[55px] text-center;
   }
   .btn-lg {
-    @apply h-[67px];
+    @apply h-[67px] text-center;
   }
   .btn-outline {
-    @apply border border-white/70 bg-none hover:bg-white hover:text-dark;
+    @apply border border-white/70 bg-none hover:bg-white hover:text-dark text-center;
   }
   .btn-dark {
-    @apply bg-dark hover:bg-dark/90 transition-all text-white;
+    @apply bg-dark hover:bg-dark/90 transition-all text-white text-center;
   }
   .btn-link {
-    @apply px-0 h-auto text-dark hover:text-dark/90 transition-all;
+    @apply px-0 h-auto text-dark hover:text-dark/90 transition-all text-center;
   }
 }

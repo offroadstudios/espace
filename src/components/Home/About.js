@@ -10,8 +10,10 @@ import tw from "twin.macro";
 
 const AboutContainer = styled.div`
   ${tw`
-    mt-20
+    mt-40
+    mb-40
     h-full
+    w-full
   `}
 `;
 
@@ -25,11 +27,11 @@ const FlexContainer = styled.div`
 
 const ImageContainer = styled.div`
   ${tw`
-    p-4
+    p-1
   `}
-  border-radius: 4px;
+  border-radius: 0px;
   img {
-    border-radius: 4px;
+    border-radius: 0px;
   }
 `;
 

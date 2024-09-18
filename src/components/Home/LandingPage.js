@@ -60,10 +60,10 @@ const LandingPage = () => {
           
           </h1>
 
-          <h2 className="rounded-md block text-[2rem] xl:text-[2rem] font-bold w-full uppercase justify-start text-black mt-48 p-4 bg-white opacity-80">  Group exhibition in Ejaz Art Gallery (Soldout)</h2>
+          <h2 className="rounded-md block text-[2rem] xl:text-[2rem] font-bold w-full uppercase justify-start text-black mt-48 p-4 bg-white opacity-80">  Pakistan's FIrst Movables Homes </h2>
         </main>
 
-        <footer className="z-30 text-3xl animate-pulse mb-7">Scroll down</footer>
+        <footer className="z-30 text-3xl black animate-pulse mb-7">Scroll down</footer>
       </div>
     </Landing>
   );

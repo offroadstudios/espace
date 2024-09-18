@@ -3,9 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      primary: "Oswald",
-      secondary: "Raleway",
-      tertiary: "Rozha One",
+      primary: ['"Trebuchet MS"', 'sans-serif'],  // Add Trebuchet MS to primary font
+      secondary: ['"Trebuchet MS"', 'sans-serif'],  // Optionally, you can add it to secondary as well
+      tertiary: ['"Trebuchet MS"', 'sans-serif'],  // Optionally, for tertiary font
     },
     container: {
       padding: {
