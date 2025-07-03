@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import GallerySection from "./GallerySection";
 import Interview from "./Interview";
 import Interview1 from "./Interview1";
+import VideoGallery from "./VideoGallery";
 
 import LandingPage from "./LandingPage";
 import Skills from "./Skills";
@@ -24,6 +25,8 @@ const index = () => {
       <About1 />
 
       <Interview1 />
+
+      <VideoGallery />
 
       <Contact />
 
