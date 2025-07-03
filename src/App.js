@@ -10,6 +10,7 @@ import LandingPage from "./components/Home/LandingPage";
 import Skills from "./components/Home/Skills";
 import Testimonial from "./components/Home/Testimonial";
 import Footer from "./components/Home/Footer";
+import VideoGallery from "./components/Home/VideoGallery";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
         children: [
           { path: "/", element: <LandingPage /> },
           { path: "/about", element: <About /> },
+          { path: "/videos", element: <VideoGallery /> },
 
 
           { path: "/contacts", element: <Contact /> },
