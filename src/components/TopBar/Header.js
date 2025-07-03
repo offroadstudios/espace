@@ -6,18 +6,17 @@ import NavMobile from "./NavMobile";
 import Socials from "./Social";
 import logo from './../../asset/topbar/logo.png';
 import styled from "styled-components";
-import tw from "twin.macro";
 // import icons
 
 
 const Logo = styled.div`
-  ${ tw`
-mt-4
-mb-14
-  `}
-  width:200px;
-  height:160px;
-  `;
+  width: 200px;
+  height: 110px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+`;
 export const Header = () => {
   const [isActive, setIsActive] = useState(false);
   const [navMobile, setNavMobile] = useState(false);
