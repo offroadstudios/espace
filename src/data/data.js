@@ -128,9 +128,11 @@ export const interview1Data = {
 export const videoData = {
   title: "Latest Videos",
   videos: [
-    { id: "dQw4w9WgXcQ" },
-    { id: "aj0mcpDp1ho" },
-    { id: "oHg5SJYRHA0" },
+    { id: "WbZJxfwxj9A" },
+    { id: "W5haWThrCFk" },
+    { id: "WbZJxfwxj9A" },
+    { id: "FlQXHWU3Lo8" },
+
   ],
 };
 export const testimonialData = [

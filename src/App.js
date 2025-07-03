@@ -3,7 +3,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./components/Home";
 import About from "./components/Home/About";
-import GallerySection from "./components/Home/GallerySection";
 import Interview from "./components/Home/Interview";
 import Contact from "./components/Home/Contact";
 import LandingPage from "./components/Home/LandingPage";
@@ -11,6 +10,7 @@ import Skills from "./components/Home/Skills";
 import Testimonial from "./components/Home/Testimonial";
 import Footer from "./components/Home/Footer";
 import VideoGallery from "./components/Home/VideoGallery";
+import GallerySection from "./components/Home/GallerySection";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +23,7 @@ const router = createBrowserRouter([
         children: [
           { path: "/", element: <LandingPage /> },
           { path: "/about", element: <About /> },
+          {path: "GallerySection", element: <GallerySection/ >},
           { path: "/videos", element: <VideoGallery /> },
 
 
