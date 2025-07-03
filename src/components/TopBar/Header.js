@@ -16,7 +16,7 @@ mt-4
 mb-14
   `}
   width:200px;
-  heihgt:160px;
+  height:160px;
   `;
 export const Header = () => {
   const [isActive, setIsActive] = useState(false);
@@ -24,10 +24,12 @@ export const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   useEffect(() => {
-    window.addEventListener("scroll", () => {
+    const handleScroll = () => {
       window.scrollY > 50 ? setIsActive(true) : setIsActive(false);
-    });
-  });
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const toggleMobileNav = () => {
     setNavMobile((prev) => !prev);

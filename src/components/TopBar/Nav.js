@@ -10,10 +10,12 @@ const Nav = () => {
   // const { pathname } = useLocation();
 
   useEffect(() => {
-    window.addEventListener("scroll", () => {
+    const handleScroll = () => {
       window.scrollY > 50 ? setIsScrollDown(true) : setIsScrollDown(false);
-    });
-  });
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
   return (
     <nav>
       <ul className="flex gap-x-[58px]">

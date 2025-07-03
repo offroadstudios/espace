@@ -25,7 +25,7 @@ export const navData = {
   items: [
     { href: "/", name: "Home" },
     { href: "/about", name: "About" },
-    // { href: "/gallery", name: "Gallery" },
+    { href: "/videos", name: "Videos" },
     { href: "/contacts", name: "Contact" },
   ],
 };
@@ -123,6 +123,15 @@ export const interview1Data = {
     "",
   btnText: "Watch it now",
   btnIcon: <FaPlay />,
+};
+
+export const videoData = {
+  title: "Latest Videos",
+  videos: [
+    { id: "dQw4w9WgXcQ" },
+    { id: "aj0mcpDp1ho" },
+    { id: "oHg5SJYRHA0" },
+  ],
 };
 export const testimonialData = [
   {
