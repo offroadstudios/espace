@@ -41,7 +41,7 @@ const GallerySection = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.6 }}
-          className="h2 max-w-[370px] lg:mb-20 text-center md:text-left"
+          className="h2 max-w-[370px] lg:mb-5 text-center md:text-left"
         >
           {title}
         </motion.h2>
