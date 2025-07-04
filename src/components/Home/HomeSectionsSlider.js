@@ -9,17 +9,17 @@ import Interview1 from "./Interview1";
 
 const HomeSectionsSlider = () => {
   return (
-    <Swiper>
-      <SwiperSlide>
+    <Swiper className="h-screen">
+      <SwiperSlide className="h-full">
         <About />
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide className="h-full">
         <Interview />
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide className="h-full">
         <About1 />
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide className="h-full">
         <Interview1 />
       </SwiperSlide>
     </Swiper>
