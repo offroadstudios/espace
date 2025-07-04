@@ -123,6 +123,16 @@ const Footer = () => {
             </form>
           </motion.div>
         </motion.div>
+        <div className="mt-8 text-center">
+          <a
+            href="https://wa.me/923232090000"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-sm btn-dark"
+          >
+            Contact on WhatsApp
+          </a>
+        </div>
       </div>
     </footer>
   );

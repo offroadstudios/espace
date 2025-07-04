@@ -2,7 +2,6 @@ import React from "react";
 // import nav data
 import { navData } from "../../data/data";
 // import components
-import Socials from "./Social";
 
 const NavMobile = () => {
   // destructure nav data
@@ -20,9 +19,6 @@ const NavMobile = () => {
           );
         })}
       </ul>
-      <div className="text-2xl">
-        <Socials />
-      </div>
     </nav>
   );
 };
