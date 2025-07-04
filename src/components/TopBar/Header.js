@@ -2,7 +2,6 @@ import React, { useState, useEffect, useCallback } from "react";
 // ── Components ────────────────────────────────────────────────────────────────
 import Nav from "./Nav";
 import NavMobile from "./NavMobile";
-import Socials from "./Social";
 
 // ── Assets ────────────────────────────────────────────────────────────────────
 import logo from "./../../asset/topbar/logo.png";
@@ -102,10 +101,7 @@ export const Header = () => {
           <NavMobile />
         </div>
 
-        {/* Social Icons (Desktop) */}
-        <div className="hidden xl:flex">
-          <Socials />
-        </div>
+     
       </div>
     </header>
   );
