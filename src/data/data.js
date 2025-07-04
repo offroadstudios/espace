@@ -120,7 +120,7 @@ export const videoData = {
   videos: [
     { id: "WbZJxfwxj9A" },
     { id: "W5haWThrCFk" },
-    { id: "WbZJxfwxj9A" },
+    { id: "G38b0LH2yRU" },
     { id: "FlQXHWU3Lo8" },
 
   ],
@@ -177,16 +177,9 @@ export const footerData = {
     title: "E-Space",
     subtitle: "MOVABLE HOMES",
   },
-  links: {
-    title: "Useful links",
-    items: [
-      { href: "/about", name: "About us" },
-      { href: "/services", name: "Book a demo" },
-      { href: "/contacts", name: "Contact Us" },
-    ],
-  },
+ 
   newsletter: {
-    title: "Use Manual",
+    title: "User Manual",
     form: {
       placeholder: "info@espace.com",
       icon: <FiSend />,
