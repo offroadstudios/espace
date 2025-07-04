@@ -55,8 +55,8 @@ const LandingPage = () => {
             alt=""
           />
         )}
-        <main className="z-30 flex flex-1 flex-col items-center justify-center gap-4 xl:gap-10 text-uppercase">
-          <h1 className="block text-[3rem] xl:text-[8rem] font-bold w-full">
+        <main className="z-30 flex flex-1 flex-col items-center justify-center mt-20 gap-4 xl:gap-10 text-uppercase">
+          <h1 className=" block text-[3rem] xl:text-[8rem] font-bold w-full">
           
           </h1>
 
