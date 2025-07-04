@@ -3,6 +3,7 @@ import { footerData } from "../../data/data";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../utils/varients";
 import { useLocation } from "react-router-dom";
+import { FaWhatsapp } from "react-icons/fa";
 
 const staggerContainer = {
   hidden: {},
@@ -128,6 +129,9 @@ const Footer = () => {
             href="https://wa.me/923232090000"
             target="_blank"
             rel="noopener noreferrer"
+            className="btn btn-sm btn-dark flex items-center gap-2"
+          >
+            <FaWhatsapp />
             className="btn btn-sm btn-dark"
           >
             Contact on WhatsApp
