@@ -23,7 +23,7 @@ const Interview = () => {
         initial="hidden"
         whileInView={'show'}
         viewport={{ once: false, amount: 0.1 }}
-        className="section bg-dark"
+        className="section bg-dark min-h-screen flex items-center"
       >
         <div className="container mx-auto h-full">
           <div className="flex flex-col lg:flex-row justify-center h-full">

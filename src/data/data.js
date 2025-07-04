@@ -57,7 +57,7 @@ export const about1Data = {
   btnIcon: <IoMdArrowForward />,
 };
 export const galleryData = {
-  title: "",
+  title: "Gallery",
   btnText: "View all",
   btnIcon: <IoMdArrowForward />,
   images: [

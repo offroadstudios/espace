@@ -10,9 +10,9 @@ import tw from "twin.macro";
 
 const AboutContainer = styled.div`
   ${tw`
-    mt-40
-    mb-40
-    h-full
+    min-h-screen
+    flex
+    items-center
     w-full
   `}
 `;

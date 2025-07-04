@@ -75,7 +75,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
          whileInView="show"
          viewport={{ once: false, amount: 0.2 }}
          ref={galleryRef}
-       className="section"
+       className="section min-h-screen flex items-center"
      >
        <div className="container mx-auto">
          <h2 className="h2 mb-8">{videoData.title}</h2>
