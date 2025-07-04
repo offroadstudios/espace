@@ -18,6 +18,7 @@ export const navData = {
   items: [
     { href: "/", name: "Home" },
     { href: "/about", name: "About" },
+    { href: "/gallery", name: "Gallery" },
     { href: "/videos", name: "Videos" },
     { href: "/contacts", name: "Contact" },
   ],
