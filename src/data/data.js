@@ -204,7 +204,7 @@ export const footerData = {
   },
  
   newsletter: {
-    title: "User Manual",
+    title: "",
     form: {
       placeholder: "info@espace.com",
       icon: <FiSend />,
