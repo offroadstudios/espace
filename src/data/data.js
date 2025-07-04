@@ -7,6 +7,15 @@ import GalleryImg5 from "../asset/gallery/image5.jpg";
 import GalleryImg6 from "../asset/gallery/image6.jpg";
 import GalleryImg7 from "../asset/gallery/image7.jpg";
 import GalleryImg8 from "../asset/gallery/image8.jpg";
+import Product1 from "../asset/Products/M1.jpeg";
+import Product2 from "../asset/Products/M2.jpeg";
+import Product3 from "../asset/Products/M4.jpeg";
+import Product4 from "../asset/Products/M5.jpeg";
+import Product5 from "../asset/Products/M6.jpeg";
+import Product6 from "../asset/Products/M7.jpeg";
+import Product7 from "../asset/Products/M8.jpeg";
+import Product8 from "../asset/Products/M9.jpeg";
+import Product9 from "../asset/Products/m10.jpeg";
 import QuoteImg from "../asset/testimonial/quote.svg";
 import { IoMdArrowForward } from "react-icons/io";
 import { FiSend } from "react-icons/fi";
@@ -18,6 +27,7 @@ export const navData = {
   items: [
     { href: "/", name: "Home" },
     { href: "/about", name: "About" },
+    { href: "/products", name: "Products" },
     { href: "/gallery", name: "Gallery" },
     { href: "/videos", name: "Videos" },
     { href: "/contacts", name: "Contact" },
@@ -45,6 +55,21 @@ export const about1Data = {
   subtitle1:
 "Live sustainably with our energy-efficient design. Equipped with solar panels, rainwater harvesting systems, and advanced filtration, our homes are perfect for off-grid living. Enjoy self-sufficient, eco-conscious living without sacrificing modern conveniences.",
   btnIcon: <IoMdArrowForward />,
+};
+
+export const productsData = {
+  title: "Products",
+  images: [
+    Product1,
+    Product2,
+    Product3,
+    Product4,
+    Product5,
+    Product6,
+    Product7,
+    Product8,
+    Product9,
+  ],
 };
 export const galleryData = {
   title: "Gallery",
