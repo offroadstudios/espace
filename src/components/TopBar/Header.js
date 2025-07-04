@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 // import components
 import Nav from "./Nav";
 import NavMobile from "./NavMobile";
-import Socials from "./Social";
 import logo from './../../asset/topbar/logo.png';
 import styled from "styled-components";
 import tw from "twin.macro";
@@ -86,10 +85,7 @@ export const Header = () => {
         >
           <NavMobile />
         </div>
-        {/* social icons - initially hidden - is showing on desktop mode */}
-        <div className="hidden xl:flex">
-          <Socials />
-        </div>
+        {/* social icons removed */}
       </div>
     </header>
   );

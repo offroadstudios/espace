@@ -8,16 +8,9 @@ import GalleryImg6 from "../asset/gallery/image6.jpg";
 import GalleryImg7 from "../asset/gallery/image7.jpg";
 import GalleryImg8 from "../asset/gallery/image8.jpg";
 import QuoteImg from "../asset/testimonial/quote.svg";
-import { GrFacebookOption } from "react-icons/gr";
 import { IoMdArrowForward } from "react-icons/io";
 import { FiSend } from "react-icons/fi";
 import { FaPlay, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
-import {
-  IoLogoInstagram,
-  IoLogoPinterest,
-  IoLogoTwitter,
-  IoLogoYoutube,
-} from "react-icons/io";
 
 export const headerData = {};
 
@@ -25,15 +18,12 @@ export const navData = {
   items: [
     { href: "/", name: "Home" },
     { href: "/about", name: "About" },
+    { href: "/gallery", name: "Gallery" },
     { href: "/videos", name: "Videos" },
     { href: "/contacts", name: "Contact" },
   ],
 };
 
-export const socialData = [
-  { href: "/", icon: <IoLogoInstagram /> },
-  { href: "/", icon: <IoLogoPinterest /> },
-];
 
 export const heroData = {
   title: "I’m Void Sir.",
@@ -57,7 +47,7 @@ export const about1Data = {
   btnIcon: <IoMdArrowForward />,
 };
 export const galleryData = {
-  title: "",
+  title: "Gallery",
   btnText: "View all",
   btnIcon: <IoMdArrowForward />,
   images: [

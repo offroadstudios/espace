@@ -23,7 +23,7 @@ const router = createBrowserRouter([
         children: [
           { path: "/", element: <LandingPage /> },
           { path: "/about", element: <About /> },
-          {path: "GallerySection", element: <GallerySection/ >},
+          { path: "/gallery", element: <GallerySection /> },
           { path: "/videos", element: <VideoGallery /> },
 
 
