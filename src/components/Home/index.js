@@ -6,6 +6,7 @@ import VideoGallery from "./VideoGallery";
 import LandingPage from "./LandingPage";
 import GallerySection from "./GallerySection";
 import HomeSectionsSlider from "./HomeSectionsSlider";
+import Products from "./Products";
 const index = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const index = () => {
 
       {/* <Outlet /> */}
       <HomeSectionsSlider />
+      <Products />
       <GallerySection/>
       <VideoGallery />
 

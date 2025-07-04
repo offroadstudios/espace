@@ -11,6 +11,7 @@ import Testimonial from "./components/Home/Testimonial";
 import Footer from "./components/Home/Footer";
 import VideoGallery from "./components/Home/VideoGallery";
 import GallerySection from "./components/Home/GallerySection";
+import Products from "./components/Home/Products";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,7 @@ const router = createBrowserRouter([
         children: [
           { path: "/", element: <LandingPage /> },
           { path: "/about", element: <About /> },
+          { path: "/products", element: <Products /> },
           { path: "/gallery", element: <GallerySection /> },
           { path: "/videos", element: <VideoGallery /> },
 
