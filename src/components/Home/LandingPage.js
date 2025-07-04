@@ -40,11 +40,11 @@ const LandingPage = () => {
 
       <div
         ref={landingRef}
-        className="h-screen w-full relative flex flex-col items-center justify-between text-white"
+        className="h-screen w-full relative flex flex-col items-center justify-between text-white mb-20"
       >
         {mobileScreen ? (
           <img
-            className="absolute top-24 left-0 w-full h-full brightness-80 py-8"
+            className="absolute top-20 left-0 w-full h-full brightness-80 py-8"
             src={tattoo2}
             alt=""
           />
