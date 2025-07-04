@@ -14,7 +14,7 @@ const Contact = () => {
   }, [pathname]);
 
   return (
-    <section ref={contactRef} className="section">
+    <section ref={contactRef} className="section min-h-screen flex items-center">
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-y-16">
           {/* Removed the entire block that renders the contact info */}
